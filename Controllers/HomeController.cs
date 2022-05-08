@@ -7,7 +7,7 @@ namespace AzureApp.Controllers;
 public class HomeController : Controller
 {
     [HttpGet]
-    [ProducesResponseType(typeof(OkResponse), 200)]
+    [ProducesResponseType(typeof(OkResponse), 200, "application/json")]
     public IActionResult Index()
     {
         return Ok(new { Message = "Hello World!" });
