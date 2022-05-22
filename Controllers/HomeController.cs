@@ -10,6 +10,6 @@ public class HomeController : Controller
     [ProducesResponseType(typeof(OkResponse), 200, "application/json")]
     public IActionResult Index()
     {
-        return Ok(new { Message = "Hello World!" });
+        return Ok(new { Message = "Hello AZ-204!" });
     }
 }
